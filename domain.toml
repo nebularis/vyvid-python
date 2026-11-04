@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+name = "python"
+description = "What a parser, ast, jedi and scip-python each know about Python code, and which of them run it, each note measured or run"
+visibility = "public"
+rules = []
+
+[families]
+NOTE = { defined = "notes.md", type = "note" }
+
+[[recipes]]
+name = "how-do-i"
+description = "When asking how to get names, docstrings or references out of Python code"
+budget = 1200
+steps = [
+  { step = "find", words = "{question}", kind = "note", limit = 6 },
+  { step = "take", n = 4 },
+]
