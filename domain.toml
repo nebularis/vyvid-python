@@ -15,3 +15,7 @@ steps = [
   { step = "find", words = "{question}", kind = "note", limit = 6 },
   { step = "take", n = 4 },
 ]
+
+[skill_values]
+benchmark_root = "benchmark/"
+shared_fixtures = "conftest.py"
